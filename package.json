@@ -1,0 +1,17 @@
+{
+  "name": "wu-conftest-backend",
+  "version": "1.0.0",
+  "description": "Backend Server for receiving IaC and evaluating using Conftest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Ajay Mehul",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1"
+  }
+}
